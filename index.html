@@ -1,16 +1,302 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="lv">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boksa Nometne - Profesionāla Boksa Apmācība</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  Hello world
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-logo">
+        <span class="logo-red">BOXING</span>
+        <span class="logo-gold">CAMP</span>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <div class="navbar-links">
+        <a href="index.html" class="navbar-link">Sākums</a>
+        <a href="galerija.html" class="navbar-link">Galerija</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-button">
+        <span class="menu-icon"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-menu">
+      <a href="index.html" class="mobile-link">Sākums</a>
+      <a href="galerija.html" class="mobile-link">Galerija</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-background"></div>
+
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="text-red">BOKSA</span> <span class="text-gold">NOMETNE</span>
+      </h1>
+      <p class="hero-description">
+        Pilnveido savas boksa prasmes profesionālu treneru vadībā mūsu intensīvajā treniņu nometnē
+      </p>
+      <a href="galerija.html" class="hero-button">
+        APSKATĪT GALERIJU
+      </a>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title">Mūsu Nometnes Priekšrocības</h2>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3 class="feature-title">Profesionāli Treneri</h3>
+          <p class="feature-text">Mūsu boksa nometnē strādā starptautiski atzīti treneri ar ilggadēju pieredzi profesionālajā boksā un jauno sportistu sagatavošanā.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="feature-title">Modernas Iekārtas</h3>
+          <p class="feature-text">Trenējies ar jaunākajām boksa iekārtām un aprīkojumu, kas nodrošina efektīvus un drošus treniņus dažāda līmeņa sportistiem.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="feature-title">Individuāla Pieeja</h3>
+          <p class="feature-text">Katram dalībniekam tiek izstrādāta individuāla treniņu programma, ņemot vērā viņa fizisko sagatavotību, mērķus un iepriekšējo pieredzi.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 class="feature-title">Sacensību Pieredze</h3>
+          <p class="feature-text">Nometnes dalībniekiem ir iespēja piedalīties draudzības sparingos un iegūt vērtīgu sacensību pieredzi drošā un atbalstošā vidē.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Boxing Criteria Section -->
+  <div class="boxing-criteria">
+    <div class="container">
+      <h2 class="criteria-title">
+        <span class="text-red">BOKSA</span> <span class="text-gold">KRITĒRIJI</span>
+      </h2>
+      <div class="criteria-content">
+        <img src="boxing-ringside.jpg" alt="Boksa cīnītāji ringā" class="criteria-image">
+        <div class="criteria-cards">
+          <div class="criteria-card">
+            <h3 class="criteria-card-title">Tehnika</h3>
+            <p>Boksā tehnika ir pamats visam. Mūsu nometnē īpaši fokusējamies uz pareizu sitienu tehniku, aizsardzības manierēm un pārvietošanos ringā. Tehnikas pamatprincipus mācām sākot no pirmās dienas.</p>
+          </div>
+          <div class="criteria-card">
+            <h3 class="criteria-card-title">Izturība</h3>
+            <p>Fiziskā sagatavotība ir kritiski svarīga boksā. Mūsu treniņi ietver intesīvus kardio vingrinājumus, spēka treniņus un izturības uzdevumus, lai sportists būtu gatavs pilnai cīņai.</p>
+          </div>
+          <div class="criteria-card">
+            <h3 class="criteria-card-title">Stratēģija</h3>
+            <p>Bokss nav tikai fiziski, bet arī mentāli prasīgs sports. Mūsu treneri māca kā analizēt pretinieku, izstrādāt cīņas plānu un pielāgoties situācijai ringā, lai sasniegtu uzvaru.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Section -->
+  <section class="video-section">
+    <div class="container">
+      <h2 class="section-title">Iedvesmojies ar Boksa Garu</h2>
+      <p class="section-description">
+        Ieskatieties boksa pasaulē un gūstiet iedvesmu no meistarības, spēka un tehnikas, ko demonstrē profesionāļi.
+      </p>
+
+      <div class="video-container">
+        <iframe 
+          src="https://www.youtube.com/embed/KihGo9jd2As?autoplay=0" 
+          title="Boxing Training Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title">Ko Saka Mūsu Dalībnieki</h2>
+
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <p class="testimonial-text">Šī nometne pilnībā mainīja manu izpratni par boksa tehniku. Treneru individuālā pieeja palīdzēja man ātri novērst kļūdas un uzlabot sniegumu.</p>
+          <div class="testimonial-author">
+            <p class="author-name">Jānis Bērziņš</p>
+            <p class="author-role">Amatiera bokseris</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <p class="testimonial-text">Atvēdu savus audzēkņus uz šo nometni, un rezultāti bija iespaidīgi. Profesionālie treneri spēja motivēt pat visgrūtāk sasniedzamos sportistus.</p>
+          <div class="testimonial-author">
+            <p class="author-name">Andris Kalniņš</p>
+            <p class="author-role">Jauniešu treneris</p>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <p class="testimonial-text">Pat ar manu pieredzes līmeni es ieguvu daudz vērtīgu padomu un jaunu treniņu metožu. Īpaši patika intensīvie sparinga seansi un tehniskās analīzes.</p>
+          <div class="testimonial-author">
+            <p class="author-name">Līga Ozoliņa</p>
+            <p class="author-role">Profesionāla sportiste</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <h2 class="section-title">Sazinieties ar Mums</h2>
+
+      <div class="contact-grid">
+        <div class="contact-form">
+          <h3 class="form-title">Sūtiet Mums Ziņu</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" placeholder="Jūsu vārds" class="form-input">
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Jūsu e-pasts" class="form-input">
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Jūsu tālrunis" class="form-input">
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Jūsu ziņojums" class="form-textarea"></textarea>
+            </div>
+            <button type="submit" class="form-button">Nosūtīt Ziņojumu</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h3 class="info-title">Kontaktinformācija</h3>
+          <div class="info-items">
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div class="info-content">
+                <p class="info-label">Tālrunis</p>
+                <p class="info-value">+371 26 123 456</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">✉️</div>
+              <div class="info-content">
+                <p class="info-label">E-pasts</p>
+                <p class="info-value">info@boksanometne.lv</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div class="info-content">
+                <p class="info-label">Adrese</p>
+                <p class="info-value">Sporta iela 15, Rīga, LV-1013, Latvija</p>
+              </div>
+            </div>
+
+            <div class="working-hours">
+              <h4 class="hours-title">Nometnes Darba Laiki</h4>
+              <ul class="hours-list">
+                <li class="hours-item">
+                  <span>Pirmdiena - Piektdiena:</span>
+                  <span>8:00 - 21:00</span>
+                </li>
+                <li class="hours-item">
+                  <span>Sestdiena:</span>
+                  <span>9:00 - 18:00</span>
+                </li>
+                <li class="hours-item">
+                  <span>Svētdiena:</span>
+                  <span>10:00 - 16:00</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <span class="logo-red">BOXING</span>
+            <span class="logo-gold">CAMP</span>
+          </div>
+          <p class="footer-text">
+            Profesionāla boksa nometne dažādu līmeņu sportistiem. Mēs palīdzam attīstīt jūsu boksa prasmes profesionālu treneru vadībā.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link">FB</a>
+            <a href="#" class="social-link">IG</a>
+            <a href="#" class="social-link">TW</a>
+            <a href="#" class="social-link">YT</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3 class="footer-title">Ātrās Saites</h3>
+          <ul class="quick-links">
+            <li><a href="index.html">Sākums</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="#">Par Mums</a></li>
+            <li><a href="#">Nometnes Grafiks</a></li>
+            <li><a href="#">Cenas</a></li>
+            <li><a href="#">Kontakti</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h3 class="footer-title">Piesakieties Jaunumiem</h3>
+          <p class="newsletter-text">
+            Saņemiet jaunāko informāciju par gaidāmajām nometnēm un īpašiem piedāvājumiem.
+          </p>
+          <form class="newsletter-form">
+            <input 
+              type="email" 
+              placeholder="Jūsu e-pasts" 
+              class="newsletter-input"
+            />
+            <button type="submit" class="newsletter-button">
+              Pieteikties
+            </button>
+          </form>
+          <p class="privacy-text">
+            * Mēs nekad neizpaudīsim jūsu e-pasta adresi trešajām personām.
+          </p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; <span id="currentYear"></span> Boksa Nometne. Visas tiesības aizsargātas.</p>
+      </div>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
-
 </html>
